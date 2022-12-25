@@ -49,8 +49,8 @@ const ItemPreview = (props) => {
         <div className="d-flex flex-row align-items-center pt-2 item-footer">
           <Link to={`/@${item.seller.username}`} className="flex-grow-1">
             {item.seller.isVerified ?? 
-              <div>
-                <img id="item_verified_seller_item" class="item-footer" src="verified_seller.svg" />
+              <div id="item_verified_seller_item">
+                <img class="item-footer" src="verified_seller.svg" />
                 <p>TOP SELLER</p>
               </div>
             }
