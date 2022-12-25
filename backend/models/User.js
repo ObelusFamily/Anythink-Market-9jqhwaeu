@@ -36,6 +36,7 @@ var UserSchema = new mongoose.Schema(
     isVerified: {
       type: Boolean,
       default: false,
+      index: true,
     },
   },
   { timestamps: true }
