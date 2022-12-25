@@ -50,7 +50,7 @@ const ItemPreview = (props) => {
           <Link to={`/@${item.seller.username}`} className="flex-grow-1">
             {item.seller.isVerified ?? 
               <div>
-                <img src="verified_seller.svg" />
+                <img id="item_verified_seller_item" src="verified_seller.svg" />
                 <p>TOP SELLER</p>
               </div>
             }
